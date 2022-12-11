@@ -3,14 +3,12 @@
 ## Test Manager
 
 ## Contact information
-**Phone:** +79179701715
-
-**E-mail:** hankmccoy@yandex.ru
-
+**Phone:** +79179701715 <br>
+**E-mail:** hankmccoy@yandex.ru <br>
 **Telegram:** @ivannilov
 
 ## Info about myself
-Description TODO
+Experienced testing and managing guy who wish to learn something new in FE development
 
 ## Skills
 * Test management
