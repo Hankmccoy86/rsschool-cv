@@ -29,7 +29,8 @@ Description TODO
     - QA Lead
 
 ## Education
-TODO
+[Togliatty State University](https://www.tltsu.ru/) (2004-2010)
+
 
 ## Language
 - English: B1+
