@@ -4,11 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test-application</title>
+    <title>Нилов резюме</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-    <h1>This is test application! </h1>
-    <p>Hello wolrd!</p>
+    <header>     <!--Заголовок сайта-->
+        <div class="header-container">
+            <nav class="navigation"> <!-- Меню -->
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#language">Language</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </header>
+    <main>  <!--Основное содержимое сайта-->
+        <section class="main-section" id="home">
+            <!--Основная информация: имя, позиция, логотип-->
+            <h1>Ivan Nilov</h1>
+            <h2>Test Manager</h2>  
+            <img class="user__img" src="./assets/img/photo_2020-12-11_10-30-16.jpg" width="160" height="160" alt="Иван Нилов">
+            <!--Сделать разрешение фото через стили, убрать значения ширины и высоты - TODO-->
+        </section>
+        <section class="section" id="contacts">
+             <!--Контактная информация-->
+            <div>
+                <h2>Contacts</h2>
+                <div class="section-contacts">
+                    <span>Phone: +79179701715</span><br>
+                    <span>E-mail: hankmccoy@yandex.ru</span><br>
+                    <span>Telegram: @ivannilov</span>   
+                <div>   
+            </div>
+        </section>
+        <section class="section" id="summary">
+            <!--Информация о себе-->
+            <div class="section-summary">
+                <h2>Info about myself</h2>
+                <p>Experienced testing and managing guy who wish to learn something new in FE development</p>   
+            </div>            
+        </section>
+        <section class="section" id="skills">
+            <!--Информация о навыках-->
+            <div class="section-skills">
+                <h2>Skills</h2>  
+                <ul class="list">
+                    <li class="item">Test management</li>
+                    <li class="item">Testing approaches</li>
+                    <li class="item">JIRA</li>
+                    <li class="item">SQL</li>
+                    <li class="item">SOAP/REST</li>
+                    <li class="item">Web applications</li>
+                </ul>      
+            </div>  
+        </section>
+        <section class="section" id="experience">
+            <!--Информация об опыте-->
+            <div class="section-experience">
+                <h2>Experience</h2>
+                <ul class="list">
+                    <li class="item">EPAM (2019-2022)
+                        <ul class="list">
+                            <li class="item">Lead Software Testing Engineer</li>
+                        </ul>  
+                    </li>
+                    <li class="item">Netcracker (2014-2019)
+                        <ul class="list">
+                            <li class="item">QA Engineer</li>
+                            <li class="item">Senior QA Engineer</li>
+                            <li class="item">QA Lead</li>
+                        </ul>  
+                    </li>
+                </ul>  
+            </div>              
+        </section>
+        <section class="section" id="education">
+            <!--Информация об образовании-->
+            <div class="section-education">
+                <h2>Education</h2>
+                <p><a href="https://www.tltsu.ru/">Togliatty State University</a> (2004-2010)</p>  
+            </div>       
+        </section>
+        <section class="section" id="language">
+            <!--Информация о владении языков-->
+            <div class="section-language">
+                <h2>Language</h2>
+                <ul class="list">
+                    <li class="item">English: B1+</li>
+                    <li class="item">Russian (Native)</li>
+                </ul> 
+            </div>                
+        </section>
+    </main>
+    <footer>      <!--Основное содержимое сайта-->
+        <p>Cсылка на гитхаб автора работы, год создания приложения, логотип курса со ссылкой на курс - TODO</p>
+    </footer>
 </body>
 </html>

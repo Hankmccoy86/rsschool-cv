@@ -1,9 +1,64 @@
-body {
-    background-color: powderblue;
+body{
+    background-image: url("./assets/img/vivid-blurred-colorful-background.jpg");
+    background-size: repeat;
+    background-position: center;
 }
-h1 {
-    color: blue;
+
+.navigation
+ {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    padding-top: 10px;
+    font-size: 20px;
+    line-height:30px;
+
 }
-p {
-    color: red;
+
+h1
+{
+    font-size: 36px; 
+}
+
+h2
+{
+    font-size: 24px;
+}
+
+p
+{
+    font-size: 18px;
+}
+
+.section
+{
+    display: flex;
+    justify-content: center;
+    align-content: normal;
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 16px;
+}
+
+.section-contacts
+{
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.list
+{
+    text-align: left;
+}
+
+.item
+{
+    font-size: 18px;
+    line-height: 26px;
 }
