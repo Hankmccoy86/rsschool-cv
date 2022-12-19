@@ -1,0 +1,104 @@
+body {
+    background-image: url("./assets/img/vivid-blurred-colorful-background.jpg");
+    background-size: repeat;
+    background-position: center;
+    color: #2a2e33;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.navigation {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    padding-top: 10px;
+    font-size: 20px;
+    line-height:30px;
+    background-color: #ab82ee58;
+}
+ 
+.navigation li a:hover{
+     color: #efefef;  /* Цвет текста при наведении курсора. */
+}
+
+.user_img {
+    width: 160px;
+    height: 160px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+h1 {   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px; 
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+h2 {   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.main_section { 
+    width: 100%;
+    border-bottom: 2px solid #ecedee;
+}
+
+.section {
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #ecedee;
+}
+
+.list {
+    text-align: left;
+}
+
+.item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    margin-left: 24px;
+}
+
+.footer_img {   
+    padding-top: 10px;
+    padding-left: 200px;
+    width: 100px;
+}
+
+.footer_span {
+    padding-left: 40px;
+    padding-right: 200px;
+    /*padding-bottom: 20px;*/
+    font-size: 20px;
+    white-space: nowrap;
+
+}
