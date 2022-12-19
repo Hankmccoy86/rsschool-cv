@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нилов резюме</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+    <header>     <!--Заголовок сайта-->
+        <div class="header-container">
+            <nav class="navigation"> <!-- Меню -->
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#language">Language</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </header>
+    <main>  <!--Основное содержимое сайта-->
+        <section id="home">
+            <!--Основная информация: имя, позиция, логотип-->
+            <img class="user_img" src="./assets/img/photo_2020-12-11_10-30-16.jpg" alt="Иван Нилов">
+            <!--Сделать разрешение фото через стили, убрать значения ширины и высоты - TODO-->
+            <div class="main_section">
+                <h1>Ivan Nilov</h1>
+                <h2>Test Manager</h2>      
+            </div>
+        </section>
+        <section class="section" id="contacts">
+             <!--Контактная информация-->
+            <div>
+                <h2>Contacts</h2>
+                <!--<div class="section-contacts"> -->
+                 <ul class="list">
+                    <li class="item"><span class="bold">Phone:</span> +79179701715</li>
+                    <li class="item"><span class="bold">E-mail:</span> hankmccoy@yandex.ru</li>
+                    <li class="item"><span class="bold">Telegram:</span> @ivannilov</li>
+                 </ul> 
+                <!--</div>  -->
+            </div>
+        </section>
+        <section class="section" id="summary">
+            <!--Информация о себе-->
+            <h2>Summary</h2>
+            <p>Experienced testing and managing guy who wish to learn something new in FE development</p>   
+        </section>
+        <section class="section" id="skills">
+            <!--Информация о навыках-->
+            <h2>Skills</h2>  
+            <ul class="list">
+                <li class="item">Test management</li>
+                <li class="item">Testing approaches</li>
+                <li class="item">JIRA</li>
+                <li class="item">SQL</li>
+                <li class="item">SOAP/REST</li>
+                <li class="item">Web applications</li>
+            </ul>      
+        </section>
+        <section class="section" id="code">
+            <!--Информация о навыках-->
+            <h2>Code</h2>  
+            <pre>
+        function sum(a,b) 
+        {
+            return a+b;
+        } 
+            </pre>    
+        </section>
+        <section class="section" id="experience">
+            <!--Информация об опыте-->
+            <h2>Experience</h2>
+            <ul class="list">
+                <li class="item">EPAM (2019-2022)
+                    <ul class="list">
+                        <li class="item">Lead Software Testing Engineer</li>
+                    </ul>  
+                </li>
+                <li class="item">Netcracker (2014-2019)
+                    <ul class="list">
+                        <li class="item">QA Engineer</li>
+                        <li class="item">Senior QA Engineer</li>
+                        <li class="item">QA Lead</li>
+                    </ul>  
+                </li>
+            </ul>  
+        </section>
+        <section class="section" id="education">
+            <!--Информация об образовании-->
+            <h2>Education</h2>
+            <p><a href="https://www.tltsu.ru/">Togliatty State University</a> (2004-2010)</p>  
+        </section>
+        <section class="section" id="language">
+            <!--Информация о владении языков-->
+            <h2>Language</h2>
+            <ul class="list">
+                <li class="item">English: B1+</li>
+                <li class="item">Russian <span class="italic">(Native)</span></li>
+            </ul> 
+        </section>
+    </main>
+    <footer>      <!--Подвал сайта-->
+        <div>
+            <span class="footer_span">©2022        <a href="https://github.com/Hankmccoy86">Hankmccoy86</a></span>
+            <span>
+                <a href="https://rs.school/js/">
+                    <img class="footer_img" src="./assets/img/rs_school_js.svg" alt="rsschool">
+                </a> 
+            </span>    
+        </div>
+    </footer>
+</body>
+</html>
